@@ -8,7 +8,7 @@ import { AuthProvider } from './services/auth';
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename="/AICodexReact">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/auth" element={<AuthPage />} />
