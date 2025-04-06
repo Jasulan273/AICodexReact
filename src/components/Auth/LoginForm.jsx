@@ -22,8 +22,8 @@ export default function LoginForm() {
   };
 
   return (
+    <div className="min-h-screen bg-gray-100 flex items-center p-4">
     <div className="relative max-w-2xl w-full mx-auto">
-      {/* Background Patterns */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute top-0 left-0 w-40 h-40 bg-blue-200 opacity-20 rounded-full blur-3xl" />
         <div className="absolute bottom-0 right-0 w-48 h-48 bg-purple-200 opacity-20 rounded-full blur-3xl" />
@@ -81,6 +81,7 @@ export default function LoginForm() {
 
         </div>
       </div>
+    </div>
     </div>
   );
 }

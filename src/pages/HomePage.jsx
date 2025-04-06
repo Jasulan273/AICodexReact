@@ -16,7 +16,7 @@ export default function HomePage() {
             
             className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-200"
           >
-           <Link to="/auth" className="text-white hover:text-blue-600 transition duration-200">
+           <Link to="/auth/login" className="text-white hover:text-blue-600 transition duration-200">
            Login / Register
                   </Link>
           </button>

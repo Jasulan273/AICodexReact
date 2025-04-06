@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
-import AuthPage from './pages/AuthPage';
 import MainPage from './pages/MainPage';
 import LoginForm from './components/Auth/LoginForm';
 import RegisterForm from './components/Auth/RegisterForm';
@@ -13,7 +12,6 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/auth" element={<AuthPage />} />
           <Route path="/auth/login" element={<LoginForm />} />
           <Route path="/auth/register" element={<RegisterForm />} />
           <Route
