@@ -75,9 +75,10 @@ export default function LoginForm() {
         </form>
         <div className="mt-6 text-center text-sm">
           <span className="text-gray-500">Need an account? </span>
-          <Link to="/auth?tab=register" className="text-blue-500 hover:text-blue-600 transition-all duration-1000">
-            Create one
-          </Link>
+          <Link to="/auth/register" className="text-blue-500 hover:text-blue-600 transition-all duration-1000">
+  Create one
+</Link>
+
         </div>
       </div>
     </div>

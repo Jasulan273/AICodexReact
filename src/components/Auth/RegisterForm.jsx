@@ -32,7 +32,7 @@ export default function RegisterForm() {
           <h2 className="text-3xl font-bold mb-4 text-gray-800">Welcome Aboard!</h2>
           <p className="mb-6 text-gray-600">Your account has been created successfully.</p>
           <Link
-            to="/auth?tab=login"
+            to="/auth/login"
             className="inline-block text-blue-500 hover:text-blue-600 transition-all duration-1000 font-medium"
           >
             Proceed to Login
@@ -95,7 +95,7 @@ export default function RegisterForm() {
         </form>
         <div className="mt-6 text-center text-sm">
           <span className="text-gray-500">Already registered? </span>
-          <Link to="/auth?tab=login" className="text-blue-500 hover:text-blue-600 transition-all duration-1000">
+          <Link to="/auth/login" className="text-blue-500 hover:text-blue-600 transition-all duration-1000">
             Sign in
           </Link>
         </div>
