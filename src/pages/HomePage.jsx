@@ -9,7 +9,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-white font-sans">
 
-      <header className="w-full bg-white shadow-sm fixed top-0 z-50">
+      <header className="w-[90%] bg-white shadow-sm fixed top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
           <img src={logo} width="50px" className='scale-[3]' alt="" />
           <button
