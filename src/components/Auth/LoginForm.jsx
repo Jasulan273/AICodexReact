@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../services/auth';
 
 export default function LoginForm() {
@@ -75,9 +75,9 @@ export default function LoginForm() {
         </form>
         <div className="mt-6 text-center text-sm">
           <span className="text-gray-500">Need an account? </span>
-          <a href="/auth?tab=register" className="text-blue-500 hover:text-blue-600 transition-all duration-1000">
+          <Link to="/auth?tab=register" className="text-blue-500 hover:text-blue-600 transition-all duration-1000">
             Create one
-          </a>
+          </Link>
         </div>
       </div>
     </div>
